@@ -71,7 +71,7 @@ clicks: 2
 
 ---
 layout: default
-class: text-center
+class: text-center important-bg-black
 ---
 
 # What makes Astro great?
@@ -130,11 +130,12 @@ layout: center
 
 ---
 layout: default
+class: important-bg-black
 ---
 
 <div class="text-left">
 
-_ProductCard.astro_
+# _ProductCard.astro_
 
 ```astro {all|1,6|2-3|5|7-9|11-14|16-18|all}
 ---
@@ -184,6 +185,12 @@ layout: center
 ---
 
 # Island Architecture
+
+<div v-click class="mt-10">
+  <p class="text-3xl text-center important-line-height-normal italic">
+    The ability to have an make part of the UI interactive on an otherwise static page of HTML.
+  </p>
+</div>
 
 ---
 layout: image
