@@ -10,6 +10,7 @@ layout: cover
 themeConfig:
   color: "#F3EFF5"
   background: "#000"
+  dark: "#000"
 
   code-background: "#0F131E"
   code-border: "#242d34"
@@ -29,7 +30,7 @@ themeConfig:
   center-headingColor: var(--slidev-theme-accents-vulcan)
   center-background: var(--slidev-theme-background)
 
-  cover-headingBg: var(--slidev-theme-accents-teal)
+  cover-headingBg: var(--slidev-theme-accents-yellow)
   cover-headingColor: var(--slidev-theme-accents-vulcan)
   cover-background: var(--slidev-theme-background)
 
