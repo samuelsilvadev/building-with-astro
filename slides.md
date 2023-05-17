@@ -56,10 +56,18 @@ themeConfig:
 </div>
 
 ---
-layout: section
+layout: center
+clicks: 2
 ---
 
 # What is Astro?
+
+
+<div v-click class="mt-10 ">
+  <p class="text-3xl text-center important-line-height-normal italic">
+    Astro is a <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }">static site generator</span> that was created to deliver fast websites by generating HTML pages at <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }"> build time </span>.
+  </p>
+</div>
 
 ---
 layout: section
@@ -80,7 +88,7 @@ layout: default
 
 <div class="text-left">
 
-_product-card.astro_
+_ProductCard.astro_
 
 ```astro {all|1,6|2-3|5|7-9|11-14|16-18|all}
 ---
