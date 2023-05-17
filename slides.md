@@ -198,19 +198,37 @@ image: ./images/islands.png
 ---
 
 ---
-layout: section
----
-
-# What if my data changes?
-
----
 layout: center
 ---
 
 # Demo
 
 ---
-layout: section
+layout: default
+class: text-center important-bg-black
 ---
 
-# ...Isn't that a poor version of Next.js?
+# Considerations
+
+<div class="text-left">
+
+
+  <div v-click class="mt-5">
+
+  - ## Isn't that a poor version of Next.js?
+
+  </div>
+
+  <div v-click class="mt-5">
+
+  - ## What if my data changes?
+
+  </div>
+
+</div>
+
+---
+layout: center
+---
+
+# Quiz time
