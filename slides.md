@@ -115,11 +115,18 @@ class: text-center
   </div>
 
 </div>
+
 ---
 layout: center
 ---
 
-# Component-Based Architecture
+# Component based
+
+<div v-click class="mt-10 ">
+  <p class="text-3xl text-center important-line-height-normal italic">
+    Although we will be using a SSG it's still possible to take full advantage from component based development.
+  </p>
+</div>
 
 ---
 layout: default
