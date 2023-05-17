@@ -70,12 +70,51 @@ clicks: 2
 </div>
 
 ---
-layout: section
+layout: default
 class: text-center
 ---
 
 # What makes Astro great?
 
+<div class="text-left mt-20">
+
+  <div v-click>
+
+  - **Component based 🧱**
+
+  </div>
+
+  <div v-click>
+
+  - **Multi-Page Application 📑**
+
+  </div>
+
+  <div v-click>
+
+  - **Island Architecture 🏝️**
+
+  </div>
+
+  <div v-click>
+
+  - **CMSes integrations 🛜**
+
+  </div>
+ 
+  <div v-click>
+
+  - **Built-in Markdown support 🔋**
+
+  </div>
+
+  <div v-click>
+
+  - **Tooling ⚙️**
+
+  </div>
+
+</div>
 ---
 layout: center
 ---
