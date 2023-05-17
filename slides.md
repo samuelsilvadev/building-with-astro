@@ -163,7 +163,16 @@ const { name, price } = Astro.props;
 layout: center
 ---
 
-# MPA (Multi-Page Application)
+# Multi-Page Application - MPA
+
+<div v-click class="mt-10">
+  <p class="text-3xl text-center important-line-height-normal italic">
+    Every navigation requests a new HTML page from the server.
+  </p>
+</div>
+<span v-click class="text-5xl text-center mt-5">
+  😱
+</span>
 
 ---
 layout: image
