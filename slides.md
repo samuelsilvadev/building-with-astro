@@ -47,7 +47,7 @@ themeConfig:
 
 # Astro.build
 
-## _Rethinking the way we create websites_
+## _Rethinking the way we create web-*_
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/samuelsilvadev/slides-introduction-to-astro" target="_blank" alt="GitHub"
@@ -66,7 +66,7 @@ clicks: 2
 
 <div v-click class="mt-10 ">
   <p class="text-3xl text-center important-line-height-normal italic">
-    Astro is a <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }">static site generator</span> that was created to deliver fast websites by generating HTML pages at <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }"> build time </span>.
+    Astro is a <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }">static site generator</span> that was created to deliver fast websites by generating HTML pages at <span :class="{ 'underline underline-yellow': $slidev.nav.clicks === 2 }"> build time</span>.
   </p>
 </div>
 
@@ -169,7 +169,7 @@ layout: center
 
 <div v-click class="mt-10">
   <p class="text-3xl text-center important-line-height-normal italic">
-    Every navigation requests a new HTML page from the server.
+    Every navigation, requests a new HTML page from the server.
   </p>
 </div>
 <span v-click class="text-5xl text-center mt-5">
@@ -223,6 +223,18 @@ class: text-center important-bg-black
   <div v-click class="mt-5">
 
   - ## What if my data changes?
+
+  </div>
+  
+  <div v-click class="mt-5">
+
+  - ## SSR - Server Side Rendering
+
+  </div>
+  
+  <div v-click class="mt-5">
+
+  - ## Cache
 
   </div>
 
