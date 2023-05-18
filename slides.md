@@ -178,7 +178,7 @@ layout: center
 
 ---
 layout: image
-image: ./images/spa-vs-mpa.png
+image: /spa-vs-mpa.png
 ---
 
 ---
@@ -195,7 +195,7 @@ layout: center
 
 ---
 layout: image
-image: ./images/islands.png
+image: /islands.png
 ---
 
 ---
