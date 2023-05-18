@@ -189,7 +189,7 @@ layout: center
 
 <div v-click class="mt-10">
   <p class="text-3xl text-center important-line-height-normal italic">
-    The ability to have an make part of the UI interactive on an otherwise static page of HTML.
+    The ability to make part of the UI interactive within an HTML page that is mostly static
   </p>
 </div>
 
