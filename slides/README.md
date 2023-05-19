@@ -1,4 +1,4 @@
-# Welcome to The Introduction to Astro
+# Slides - Astro.build - Rethinking the way we create web-*
 
 This slide deck was created to introduce Astro and its main features to build a web application.
 

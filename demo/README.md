@@ -1,1 +1,1 @@
-# Mini e-commerce built with Astro
+# Demo - Astro.build - Rethinking the way we create web-*
