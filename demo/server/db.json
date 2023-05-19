@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "uuid",
+      "name": "Coconut tea",
+      "price": 10,
+      "image": "https://picsum.photos/200/300?random=1",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 5
+    },
+    {
+      "id": "uuid-2",
+      "name": "Green tea",
+      "price": 10,
+      "image": "https://picsum.photos/200/300?random=2",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 4
+    },
+    {
+      "id": "uuid-3",
+      "name": "Strawberry tea",
+      "price": 20,
+      "image": "https://picsum.photos/200/300?random=3",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 3
+    },
+    {
+      "id": "uuid-4",
+      "name": "Blueberry tea",
+      "price": 4,
+      "image": "https://picsum.photos/200/300?random=4",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 1
+    },
+    {
+      "id": "uuid-5",
+      "name": "Coconut tea",
+      "price": 10,
+      "image": "https://picsum.photos/200/300?random=5",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 5
+    },
+    {
+      "id": "uuid-6",
+      "name": "Green tea",
+      "price": 10,
+      "image": "https://picsum.photos/200/300?random=6",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 4
+    },
+    {
+      "id": "uuid-7",
+      "name": "Strawberry tea",
+      "price": 8,
+      "image": "https://picsum.photos/200/300?random=7",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 3
+    },
+    {
+      "id": "uuid-8",
+      "name": "Blueberry tea",
+      "price": 5,
+      "image": "https://picsum.photos/200/300?random=8",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eu ultricies ultricies, nunc nisl aliquam nunc, vitae aliqu",
+      "rating": 1
+    }
+  ]
+}

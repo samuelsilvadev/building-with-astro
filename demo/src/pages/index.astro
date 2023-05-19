@@ -1,0 +1,24 @@
+---
+import ProductCard from "../components/ProductCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { Product } from "../types/product";
+
+const response = await fetch(import.meta.env.BASE_API + "/products");
+const products: Product[] = await response.json();
+---
+
+<BaseLayout title="Awesome ecommerce">
+  <ul
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+  >
+    {
+      products.map((product) => {
+        return (
+          <li>
+            <ProductCard {...product} />
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>

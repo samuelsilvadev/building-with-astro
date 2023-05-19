@@ -1,0 +1,59 @@
+---
+import CartButton from "../../components/CartButton";
+import Rating from "../../components/Rating.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import type { Product } from "../../types/product";
+import { formatPrice } from "../../utils/formatPrice";
+
+export async function getStaticPaths() {
+  const response = await fetch(import.meta.env.BASE_API + "/products");
+  const products: Product[] = await response.json();
+
+  return products.map((product) => {
+    return {
+      params: {
+        id: product.id,
+      },
+      props: product,
+    };
+  });
+}
+
+type Props = Product;
+
+const { name, id, image, price, rating, shortDescription } = Astro.props;
+---
+
+<BaseLayout title="Product details">
+  <section class="text-gray-700 bg-white overflow-hidden">
+    <div class="container px-5 py-10 mx-auto">
+      <nav class="lg:w-4/5 mx-auto mb-5">
+        <a href="/" class="font-bold text-2xl focus:ring-4 focus:outline-none">
+          &#8592; Back
+        </a>
+      </nav>
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img
+          alt={"Representation of " + name}
+          class="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200 h-[50vh] md:h-[70vh]"
+          src={image}
+        />
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h1 class="text-gray-900 text-3xl title-font font-medium mb-2">
+            {name}
+          </h1>
+          <Rating value={rating} color="black" />
+          <p class="leading-relaxed pb-5 border-b-2 border-gray-200 mb-20 mt-5">
+            {shortDescription}
+          </p>
+          <div class="flex justify-between">
+            <span class={`text-3xl font-bold text-black`}>
+              {formatPrice(price)}
+            </span>
+            <CartButton client:idle {...Astro.props} />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
